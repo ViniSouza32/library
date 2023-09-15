@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Library</title>
+</head>
+<body>
+
+  <label class="a" for="isbnBook">ISBN do Livro: </label>
+  <input class="b" id="isbnBook" type="text" value="978-8599296578">
+  <input id="button" type="submit" value="Procurar livro">
+  
+  <div class="book-details">
+    <p><strong>ISBN:</strong> <span id="isbn"></span></p>
+    <p><strong>Título:</strong> <span id="title"></span></p>
+    <p><strong>Autor:</strong> <span id="author"></span></p>
+    <p><strong>proveedora:</strong> <span id="provider"></span></p>
+    <p><strong>Editora:</strong> <span id="publisher"></span></p>
+    <p><strong>Data de Publicação:</strong> <span id="publishedDate"></span></p>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 10%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.book-details {
+  margin-top: 20px;
+}
+
+.book-details p {
+  margin: 10px 0;
+}
+
+#isbn {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#title {
+  font-size: 18px;
+}
